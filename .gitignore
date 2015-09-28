@@ -4,4 +4,24 @@
 # Ignore Chef key files and secrets
 ###
 .chef/*.pem
+.chef/
 .chef/encrypted_data_bag_secret
+Vagrantfile-new-old
+.vagrant/
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
