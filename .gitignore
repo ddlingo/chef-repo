@@ -25,3 +25,5 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+cookbooks/my_cookbook/spec/.rspec
+cookbooks/my_cookbook/spec/spec/
